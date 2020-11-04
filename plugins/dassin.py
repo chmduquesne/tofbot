@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 # This file is part of tofbot, a friendly IRC bot.
 # You may redistribute it under the Simplified BSD License.
 # If we meet some day, and you think this stuff is worth it,
@@ -45,4 +46,4 @@ class PluginDassin(Plugin):
                 pass
 
         if len(best) > 3 and minDist < (len(searched) / 3):
-            self.say(best)
+            self.say(best + " 🎶")
